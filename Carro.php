@@ -1,5 +1,6 @@
 <?php
 
+//Herencia
 class Carro extends Vehiculo
 {
     private $tipodecarro;
@@ -10,6 +11,7 @@ class Carro extends Vehiculo
         $this->tipodecarro = $tipodecarro;
     }
 
+    //Polimorfismo
     public function obtenerPropiedad(){
         $propiedadtipocarro = "Tipo de carro: $this->tipodecarro<br>";
 

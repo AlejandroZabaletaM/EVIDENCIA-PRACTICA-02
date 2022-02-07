@@ -18,20 +18,6 @@ class Vehiculo {
         $this->precio = $precio;
         $this->disponibilidad = $disponibilidad;
     }
-/*
-    function __get($propiedad)
-    {
-        if(property_exists($this,$propiedad)){
-            return $this->$propiedad;
-        }
-    }
-
-    function __set($propiedad,$valor)
-    {
-        if(property_exists($this,$propiedad)){
-            $this->$propiedad = $valor;
-        }
-    }*/
 
     public function obtenerPropiedad()
     {
